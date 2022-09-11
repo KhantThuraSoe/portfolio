@@ -48,7 +48,6 @@ const Contact = () => {
 	const [email, setEmail] = useState('');
 	const [message, setMessage] = useState('');
 	const handleSubmit = (e) => {
-		console.log('submitted');
 		e.preventDefault();
 		setName('');
 		setEmail('');
@@ -89,7 +88,7 @@ const Contact = () => {
 				</div>
 				{/* used "getForm.io/form" for form endpoint */}
 				<form
-					action="https://getform.io/f/26dd4270-6ac6-4da2-afef-0cacf0f819d9"
+					action="https://getform.io/f/deb33723-8b13-4b52-ac14-d2630027a179"
 					method="POST"
 					className="flex flex-col gap-4 mx-6 mt-4 mb-8 text-sm"
 					onSubmit={handleSubmit}
