@@ -47,12 +47,12 @@ const Contact = () => {
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [message, setMessage] = useState('');
-	// const handleSubmit = (e) => {
-	// 	e.preventDefault();
-	// 	setName('');
-	// 	setEmail('');
-	// 	setMessage('');
-	// };
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		setName('');
+		setEmail('');
+		setMessage('');
+	};
 	return (
 		<div
 			name="contact"
@@ -91,7 +91,7 @@ const Contact = () => {
 					action="https://getform.io/f/deb33723-8b13-4b52-ac14-d2630027a179"
 					method="POST"
 					className="flex flex-col gap-4 mx-6 mt-4 mb-8 text-sm"
-					// onSubmit={handleSubmit}
+					onSubmit={handleSubmit}
 				>
 					<input
 						name="name"
@@ -119,6 +119,7 @@ const Contact = () => {
 					></textarea>
 					<button
 						type="submit"
+						onClick={handleSubmit}
 						className="border-2 border-[#66FFFF] px-2 py-1 mx-auto flex justify-center items-center rounded-sm hover:bg-[#66FFFF] hover:text-gray-700 duration-300"
 					>
 						Message
