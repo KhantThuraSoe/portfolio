@@ -13,7 +13,7 @@ const projects = [
 	},
 	{
 		id: v4(),
-		demoLink: '/',
+		demoLink: 'https://ktrs-portfolio.netlify.app/',
 		gitHubLink: 'https://github.com/KhantThuraSoe/portfolio',
 		image: portfolio,
 		title: 'My Portfolio',
