@@ -1,5 +1,7 @@
 import portfolio from '../assets/portfolio.png';
 import ecommerce from '../assets/ecommerce.png';
+import blackjack from '../assets/blackjack.png';
+
 import { v4 } from 'uuid';
 const projects = [
 	{
@@ -24,7 +26,7 @@ const projects = [
 		id: v4(),
 		demoLink: 'https://simple-blackjack-game.netlify.app/',
 		gitHubLink: 'https://github.com/KhantThuraSoe/blackjack',
-		image: portfolio,
+		image: blackjack,
 		title: 'BlackJack Game',
 		description: 'Simple BlackJack game',
 		techs: ['JavaScript', 'Sass'],
