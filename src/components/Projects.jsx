@@ -17,17 +17,17 @@ const projects = [
 		gitHubLink: 'https://github.com/KhantThuraSoe/portfolio',
 		image: portfolio,
 		title: 'My Portfolio',
-		description: 'My personal portfolio to display my work and skills...',
+		description: 'My personal portfolio to display my work and skills',
 		techs: ['React', 'JavaScript', 'Tailwind CSS'],
 	},
 	{
 		id: v4(),
-		demoLink: '/',
-		gitHubLink: '/',
+		demoLink: 'https://simple-blackjack-game.netlify.app/',
+		gitHubLink: 'https://github.com/KhantThuraSoe/blackjack',
 		image: portfolio,
-		title: 'Other Project',
-		description: 'My personal portfolio for display my skills pieces...',
-		techs: ['React', 'JavaScript', 'Tailwind CSS'],
+		title: 'BlackJack Game',
+		description: 'Simple BlackJack game',
+		techs: ['JavaScript', 'Sass'],
 	},
 ];
 
