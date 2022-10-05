@@ -32,7 +32,6 @@ const projects = [
 		description: 'Simple BlackJack game',
 		techs: ['JavaScript', 'Sass', 'HTML5', 'CSS'],
 	},
-	// https://mmadventure.netlify.app/
 	{
 		id: v4(),
 		demoLink: 'https://mmadventure.netlify.app/',
@@ -102,7 +101,7 @@ const Project = ({
 			style={{
 				backgroundColor: `#fff`,
 				backgroundImage: `url(${image})`,
-				backgroundSize: `contain`,
+				backgroundSize: `cover`,
 				backgroundPosition: `center`,
 			}}
 			className="w-[240px] h-[180px]  rounded-md group"
