@@ -1,6 +1,7 @@
 import portfolio from '../assets/portfolio.png';
 import ecommerce from '../assets/ecommerce.png';
 import blackjack from '../assets/blackjack.png';
+import t_t from '../assets/t_t.png';
 
 import { v4 } from 'uuid';
 const projects = [
@@ -29,7 +30,17 @@ const projects = [
 		image: blackjack,
 		title: 'BlackJack Game',
 		description: 'Simple BlackJack game',
-		techs: ['JavaScript', 'Sass'],
+		techs: ['JavaScript', 'Sass', 'HTML5', 'CSS'],
+	},
+	// https://mmadventure.netlify.app/
+	{
+		id: v4(),
+		demoLink: 'https://mmadventure.netlify.app/',
+		gitHubLink: 'https://github.com/KhantThuraSoe/Travel-Tour_landing_page',
+		image: t_t,
+		title: 'Travel&Tour landing page',
+		description: 'Landing page for travel and tour',
+		techs: ['JavaScript', 'HTML5', 'CSS'],
 	},
 ];
 
